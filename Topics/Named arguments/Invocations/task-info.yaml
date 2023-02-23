@@ -1,0 +1,29 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: "greeting(firstname = \"John\", lastname = \"Doe\")"
+- text: "greeting(\"John\", \"Doe\", greet = \"Hello\")"
+- text: "greeting(\"Hello\", \"John\", lastname = \"Doe\")"
+- text: "greeting(\"Hello\", \"John\", \"Doe\")"
+- text: "greeting(\"Hello\", \"John\", firstname = \"John\")"
+files:
+- name: src/Main.kt
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    fun main(args: Array<String>) {
+      // put your code here
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/7860#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Sat, 11 Feb 2023 03:41:10 UTC"
+record: -1
+selected_options:
+- 0
+- 2
+- 3
+local_check: false
